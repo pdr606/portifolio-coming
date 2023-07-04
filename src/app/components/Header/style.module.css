@@ -1,0 +1,19 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-roboto);
+  font-weight: 300;
+  padding: 0% 15%;
+  height: 100px;
+}
+
+.Header h1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+.Icon {
+  cursor: pointer;
+}

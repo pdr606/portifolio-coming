@@ -1,0 +1,78 @@
+.CardProject {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 100%;
+  padding: 2px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardProjectLeft {
+  width: 50%;
+  text-align: center;
+}
+
+.CardProjectLeft h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.CardProjectLeft p {
+  padding-top: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.CardProjectLeft div {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CardProjectLeft div span {
+  font-weight: bold;
+  margin: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InviteCode {
+  padding-top: 20px;
+}
+
+.Icon {
+  font-size: 25px;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  padding: 0px 5px;
+  transition: 0.5s;
+}
+
+.Link:hover {
+  color: #3b82f6;
+  transition: 0.5s;
+}
+
+.CardProjectRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 90%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://dmanisio.sirv.com/Images/menu-do-sistema.png);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

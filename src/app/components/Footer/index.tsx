@@ -13,10 +13,10 @@ export default function Footer(){
                     <h2>Connect whith me.</h2>
                 </div>
                 <div>
-                    <Link className={style.Link} href='https://www.linkedin.com/in/pedro-guarnieri-152731252/' target='_blank'>
+                    <Link id='icon' className={style.Link} href='https://www.linkedin.com/in/pedro-guarnieri-152731252/' target='_blank'>
                     <FaLinkedinIn className={style.Icon} />
                     </Link>
-                    <Link className={style.Link} href='https://github.com/pdr606' target='_blank'>
+                    <Link id='icon' className={style.Link} href='https://github.com/pdr606' target='_blank'>
                     <AiFillGithub className={style.Icon}/>
                     </Link>
 

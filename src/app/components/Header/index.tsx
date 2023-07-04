@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import style from "./style.module.css";
+import {BsFillMoonFill} from 'react-icons/bs'
 import {useState} from 'react'
 
 export default function Header() {
@@ -18,14 +19,9 @@ export default function Header() {
   return (
     <header className={style.Header}>
       <h1>PEDRO &#128011;</h1>
-      <Image
-        className={style.Icon}
-        src={darkMode ? "/images/sun-moon.png" : "/images/moon-black.png"}
-        width={24}
-        height={24}
-        alt="Moon Icon"
-        onClick={(e) => changeMode(e)} 
-      />
+      <p onClick={(e) => changeMode(e) } >
+      {darkMode ? <BsFillMoonFill/> : <BsFillMoonFill/>}
+      </p>
     </header>
   );
 }

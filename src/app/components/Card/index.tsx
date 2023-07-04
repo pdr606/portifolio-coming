@@ -23,10 +23,10 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <>
-      <div className={style.CardProject}>
+      <div className={style.CardProject} id="card">
         <div className={style.CardProjectLeft}>
           <h3>{title}</h3>
-          <p>{paragraph}</p>
+          <h4>{paragraph}</h4>
           <div>
             {technologies.map((technology) => (
               <span key={technology}>{technology}</span>
@@ -50,7 +50,6 @@ const Card: React.FC<CardProps> = ({
           style={{ backgroundImage: `url(${backgroundImageUrl})` }}
         ></div>
       </div>
-      ;
     </>
   );
 };

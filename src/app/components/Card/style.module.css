@@ -7,6 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
+  margin-bottom: 10px;
 }
 
 .CardProjectLeft {
@@ -19,10 +21,11 @@
   letter-spacing: 1px;
 }
 
-.CardProjectLeft p {
+.CardProjectLeft h4 {
   padding-top: 30px;
   width: 80%;
   margin: auto;
+  font-weight: 400;
 }
 
 .CardProjectLeft div {
@@ -75,4 +78,29 @@
   background-image: url(https://dmanisio.sirv.com/Images/menu-do-sistema.png);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 1025px){
+  .CardProjectRight{
+    width: 40%;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .CardProject{
+    display: inline-block;
+    height: 500px;
+  }
+
+  .CardProjectLeft{
+    width: 100%;
+  }
+
+  .CardProjectRight{
+    width: 100%;
+    height: 30%;
+    background-size: cover;
+    margin-top: 20px;
+  }
 }

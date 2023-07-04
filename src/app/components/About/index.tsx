@@ -53,14 +53,14 @@ export default function About() {
           </div>
         </div>
       </div>
-      <section className={style.SectionIcons}>
-        <div className={style.ContainerIcons}>
-          <BiLogoNodejs className={style.Icon} />
-          <BiLogoReact className={style.Icon} />
-          <BiLogoMongodb className={style.Icon} />
-          <BiLogoTypescript className={style.Icon} />
-          <SiMysql className={style.Icon} />
-          <SiNextdotjs className={style.Icon} />
+      <section className={style.SectionIcons} id="icon" >
+        <div className={style.ContainerIcons} id="icon">
+          <BiLogoNodejs className={style.Icon} id="icon" />
+          <BiLogoReact className={style.Icon} id="icon" />
+          <BiLogoMongodb className={style.Icon} id="icon" />
+          <BiLogoTypescript className={style.Icon} id="icon" />
+          <SiMysql className={style.Icon} id="icon" />
+          <SiNextdotjs className={style.Icon} id="icon" />
         </div>
       </section>
       <section className={style.SectionProjects}>

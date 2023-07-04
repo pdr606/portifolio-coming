@@ -3,3 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+body.dark h1{
+  color: white;
+}
+
+body.dark {
+  background-color: black;
+  transition: background-color 0.5s ease;
+}
+
+body.dark p{
+  color: white;
+}
+
+body.dark Icon{
+  color: white;
+}
+
+body.dark #icon {
+  color: white;
+}
+

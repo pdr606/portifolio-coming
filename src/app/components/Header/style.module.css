@@ -17,3 +17,9 @@
 .Header p{
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px){
+  .Header{
+    padding: 0 5%;
+  }
+}
